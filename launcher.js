@@ -243,7 +243,6 @@ function pythonInstallation(command, matches) {
         !matches(module.split('.')[0]) || !root || root.includes(':') || !inside(root, dataHome))
         return null;
     const [app, subdir, ...rest] = root.slice(dataHome.length + 1).split('/');
-    // The parent can also contain settings and backups, so only take the code directory.
     if (!matches(app) || !['app', 'src'].includes(subdir) || rest.length)
         return null;
     const payload = ownedPath(root);
@@ -294,7 +293,6 @@ export function findLauncherFiles(info, appId) {
         if (!inside(root, home) || !inside(executable.path, root))
             continue;
         const [dir] = executable.path.slice(root.length + 1).split('/');
-        // Downloaded archives need a name match on the executable as well as the directory.
         const name = root === downloads ? dir.replace(linuxArchiveSuffix, '') : dir;
         if (!matches(name.replace(/-\d+(?:\.\d+)+$/, '')) ||
             (root === downloads && !matches(executableName(executable.path))))
