@@ -1,0 +1,438 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+msgid ""
+msgstr ""
+"Project-Id-Version: App Uninstaller 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-20 21:25+0100\n"
+"PO-Revision-Date: 2026-11-20 00:00+0100\n"
+"Last-Translator: App Uninstaller contributors\n"
+"Language-Team: Arabic\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: extension.js:49
+msgid "container"
+msgstr "حاوية"
+
+#: extension.js:50
+msgid "local launcher"
+msgstr "اختصار محلي"
+
+#: extension.js:51
+msgid "manual installation"
+msgstr "تثبيت يدوي"
+
+#: extension.js:52
+msgid "package"
+msgstr "حزمة"
+
+#: extension.js:164 extension.js:169 extension.js:226 extension.js:252
+#: extension.js:484
+msgid "Uninstall"
+msgstr "إزالة التطبيق"
+
+#: extension.js:248
+msgid "Uninstall (unavailable)"
+msgstr "إزالة التطبيق (غير متاحة)"
+
+#: extension.js:252
+msgid "Uninstall ({0})"
+msgstr "إزالة التطبيق ({0})"
+
+#: extension.js:269 sources.js:76
+msgid "Unknown source"
+msgstr "مصدر غير معروف"
+
+#: extension.js:271
+msgid "Detection error: {0}"
+msgstr "تعذّر تحديد المصدر: {0}"
+
+#: extension.js:281 sources.js:549
+msgid "This installation source is unsupported."
+msgstr "مصدر التثبيت هذا غير مدعوم."
+
+#: extension.js:291
+msgid "Local launcher removal is off in Settings."
+msgstr "إزالة الاختصارات المحلية معطّلة في الإعدادات."
+
+#: extension.js:296
+msgid "System launcher removal is off in Settings."
+msgstr "إزالة اختصارات النظام معطّلة في الإعدادات."
+
+#: extension.js:309
+msgid "This app is already being uninstalled."
+msgstr "تجري إزالة هذا التطبيق بالفعل."
+
+#: extension.js:319 extension.js:535
+msgid "Cannot uninstall “{0}”"
+msgstr "تعذّرت إزالة «{0}»"
+
+#: extension.js:357
+msgid "Uninstall “{0}”?"
+msgstr "هل تريد إزالة «{0}»؟"
+
+#: extension.js:374
+msgid "Administrator approval is required."
+msgstr "يلزم إذن المسؤول."
+
+#: extension.js:381
+msgid "Checking affected packages…"
+msgstr "جارٍ التحقق من الحزم المتأثرة…"
+
+#: extension.js:390
+msgid "Dependent packages that may be removed ({0})"
+msgstr "الحزم التابعة التي قد تُزال ({0})"
+
+#: extension.js:391
+msgid "Other packages to be removed ({0})"
+msgstr "حزم أخرى ستُزال ({0})"
+
+#: extension.js:397
+msgid "Commands:"
+msgstr "الأوامر:"
+
+#: extension.js:438 prefs.js:82
+msgid "Also delete data and settings"
+msgstr "احذف البيانات والإعدادات أيضًا"
+
+#: extension.js:450 prefs.js:84
+msgid "Also remove unused dependencies"
+msgstr "أزل التبعيات غير المستخدمة أيضًا"
+
+#: extension.js:475
+msgid "Cancel"
+msgstr "إلغاء"
+
+#: extension.js:492 extension.js:568
+msgid "Failed to uninstall “{0}”"
+msgstr "فشلت إزالة «{0}»"
+
+#: extension.js:514
+msgid "Authentication cancelled or denied."
+msgstr "أُلغي الاستيثاق أو رُفض."
+
+#: extension.js:515
+msgid "exit code {0}"
+msgstr "رمز الخروج {0}"
+
+#: extension.js:552
+msgid "Uninstalling “{0}”…"
+msgstr "جارٍ إزالة «{0}»…"
+
+#: extension.js:569
+msgid "Unknown error."
+msgstr "خطأ غير معروف."
+
+#: extension.js:582
+msgid "“{0}” still appears to be installed"
+msgstr "يبدو أن «{0}» لا يزال مثبّتًا"
+
+#: extension.js:583
+msgid "The launcher is still present. Check the installation source."
+msgstr "لا يزال الاختصار موجودًا. تحقّق من مصدر التثبيت."
+
+#: extension.js:589
+msgid "“{0}” uninstalled"
+msgstr "أُزيل «{0}»"
+
+#: extension.js:590
+msgid "Restart to apply the change."
+msgstr "أعِد التشغيل لتطبيق التغيير."
+
+#: prefs.js:16
+msgid "Settings"
+msgstr "الإعدادات"
+
+#: prefs.js:23
+msgid "Support App Uninstaller"
+msgstr "ادعم App Uninstaller"
+
+#: prefs.js:24
+msgid "Your donation helps maintain and improve the extension."
+msgstr "يساعد تبرعك في صيانة الامتداد وتحسينه."
+
+#: prefs.js:35
+msgid "Buy me a coffee"
+msgstr "أهدني فنجان قهوة"
+
+#: prefs.js:40
+msgid "App menu"
+msgstr "قائمة التطبيق"
+
+#: prefs.js:45
+msgid "Show the source in the menu"
+msgstr "أظهر مصدر التثبيت في القائمة"
+
+#: prefs.js:46
+msgid "For example: “Uninstall (Flatpak)”."
+msgstr "مثل «إزالة التطبيق (Flatpak)»."
+
+#: prefs.js:48
+msgid "Hide the menu item when uninstalling is unavailable"
+msgstr "أخفِ خيار القائمة عند تعذّر الإزالة"
+
+#: prefs.js:49
+msgid "If shown, the item explains why the app can't be removed."
+msgstr "إن ظهر الخيار، يمكنك اختياره لمعرفة سبب تعذّر إزالة التطبيق."
+
+#: prefs.js:53
+msgid "Menu item position"
+msgstr "موضع الخيار في القائمة"
+
+#: prefs.js:54
+msgid "Before app details"
+msgstr "قبل تفاصيل التطبيق"
+
+#: prefs.js:54
+msgid "At the bottom"
+msgstr "أسفل القائمة"
+
+#: prefs.js:63
+msgid "Confirmation"
+msgstr "التأكيد"
+
+#: prefs.js:67
+msgid "Ask before uninstalling"
+msgstr "اطلب التأكيد قبل الإزالة"
+
+#: prefs.js:69
+msgid "Preview affected packages"
+msgstr "اعرض الحزم المتأثرة قبل الإزالة"
+
+#: prefs.js:70
+msgid "APT and Pacman show what else will be removed. RPM shows packages that depend on the app."
+msgstr "تعرض APT وPacman ما سيُزال أيضًا. وتعرض RPM الحزم التي تعتمد على التطبيق."
+
+#: prefs.js:72
+msgid "Show commands in the confirmation dialog"
+msgstr "أظهر الأوامر في نافذة التأكيد"
+
+#: prefs.js:76
+msgid "Uninstall options"
+msgstr "خيارات الإزالة"
+
+#: prefs.js:77
+msgid "You can change the removal options each time you confirm an uninstall."
+msgstr "يمكنك تعديل خيارات الإزالة عند كل تأكيد."
+
+#: prefs.js:86
+msgid "Move AppImage files to the Trash"
+msgstr "انقل ملفات AppImage إلى المهملات"
+
+#: prefs.js:88
+msgid "Allow removal of local launchers"
+msgstr "اسمح بإزالة الاختصارات المحلية"
+
+#: prefs.js:89
+msgid "This only removes the shortcut for apps such as Wine or browser apps."
+msgstr "يُحذف الاختصار فقط في تطبيقات Wine أو تطبيقات المتصفح مثلًا."
+
+#: prefs.js:91
+msgid "Remove from Favorites after uninstalling"
+msgstr "أزل التطبيق من المفضلة بعد إزالته"
+
+#: prefs.js:93
+msgid "Show uninstall progress and completion"
+msgstr "أظهر تقدّم الإزالة وعند اكتمالها"
+
+#: prefs.js:97
+msgid "Safety"
+msgstr "الأمان"
+
+#: prefs.js:102
+msgid "Protect essential system components"
+msgstr "احمِ مكوّنات النظام الأساسية"
+
+#: prefs.js:112
+msgid "Protected apps"
+msgstr "التطبيقات المحمية"
+
+#: prefs.js:113
+msgid "Enter a package name, a Flatpak or Snap ID, or a .desktop filename."
+msgstr "أدخِل اسم حزمة أو معرّف Flatpak أو Snap أو اسم ملف ينتهي بالامتداد ‎.desktop‎."
+
+#: prefs.js:117
+msgid "Add an app to protect"
+msgstr "أضف تطبيقًا لحمايته"
+
+#: prefs.js:122
+msgid "Add"
+msgstr "إضافة"
+
+#: prefs.js:138
+msgid "Remove"
+msgstr "إزالة من القائمة"
+
+#: sources.js:261
+msgid "Flatpak was not found."
+msgstr "لم يُعثر على Flatpak."
+
+#: sources.js:273
+msgid "Flatpak · {0} (user)"
+msgstr "Flatpak · {0} (المستخدم)"
+
+#: sources.js:274
+msgid "Flatpak · {0} (system)"
+msgstr "Flatpak · {0} (النظام)"
+
+#: sources.js:276
+msgid "Flatpak (user)"
+msgstr "Flatpak (المستخدم)"
+
+#: sources.js:276
+msgid "Flatpak (system)"
+msgstr "Flatpak (النظام)"
+
+#: sources.js:291
+msgid "Snap was not found."
+msgstr "لم يُعثر على Snap."
+
+#: sources.js:302
+msgid "Steam (game #{0})"
+msgstr "Steam (اللعبة رقم {0})"
+
+#: sources.js:304
+msgid "Could not find Steam or xdg-open."
+msgstr "لم يُعثر على Steam أو xdg-open."
+
+#: sources.js:315
+msgid "Waydroid (Android app)"
+msgstr "Waydroid (تطبيق أندرويد)"
+
+#: sources.js:317
+msgid "Waydroid was not found."
+msgstr "لم يُعثر على Waydroid."
+
+#: sources.js:327
+msgid "Container “{0}” (Distrobox or Toolbox)"
+msgstr "الحاوية «{0}» (Distrobox أو Toolbox)"
+
+#: sources.js:330
+msgid "The launcher is not in your home directory."
+msgstr "الاختصار ليس في مجلدك الشخصي."
+
+#: sources.js:356
+msgid "NixOS configuration"
+msgstr "تهيئة NixOS"
+
+#: sources.js:357
+msgid "Remove this app from your NixOS configuration and rebuild the system."
+msgstr "أزِل هذا التطبيق من تهيئة NixOS ثم أعِد بناء النظام."
+
+#: sources.js:360
+msgid "Could not find nix or nix-env."
+msgstr "لم يُعثر على nix أو nix-env."
+
+#: sources.js:372
+msgid "Guix was not found."
+msgstr "لم يُعثر على Guix."
+
+#: sources.js:380
+msgid "Local launcher"
+msgstr "اختصار محلي"
+
+#: sources.js:405
+msgid "{0} package"
+msgstr "حزمة {0}"
+
+#: sources.js:408
+msgid "Could not find a compatible package manager."
+msgstr "لم يُعثر على مدير حزم متوافق."
+
+#: sources.js:422 sources.js:425
+msgid "Manual installation"
+msgstr "تثبيت يدوي"
+
+#: sources.js:423 sources.js:539
+msgid "Run the vendor uninstaller yourself: {0}"
+msgstr "شغّل أداة الإزالة التي وفّرها المطوّر يدويًا: {0}"
+
+#: sources.js:449
+msgid "This app is on your protected list."
+msgstr "هذا التطبيق ضمن قائمة التطبيقات المحمية."
+
+#: sources.js:451
+msgid "System protection is on for this component."
+msgstr "حماية النظام مفعّلة لهذا المكوّن."
+
+#: sources.js:463
+msgid "Could not find a system copy of pkexec."
+msgstr "لم يُعثر على نسخة موثوقة من pkexec في النظام."
+
+#: sources.js:469
+msgid "Could not find a system copy of {0}."
+msgstr "لم يُعثر على نسخة موثوقة من {0} في النظام."
+
+#: sources.js:490
+msgid "Invalid package or app ID."
+msgstr "معرّف الحزمة أو التطبيق غير صالح."
+
+#: sources.js:511
+msgid "Confirm the uninstall in Steam."
+msgstr "أكّد الإزالة في Steam."
+
+#: sources.js:522
+msgid "For packages managed by Home Manager, edit your configuration."
+msgstr "عدّل إعدادات Home Manager لإزالة الحزم التي يديرها."
+
+#: sources.js:535
+msgid "Only the launcher will be removed. The app stays in the container."
+msgstr "سيُحذف الاختصار فقط. سيبقى التطبيق في الحاوية."
+
+#: sources.js:541
+msgid "The system launcher cannot be removed safely."
+msgstr "لا يمكن إزالة اختصار النظام هذا بأمان."
+
+#: sources.js:578
+msgid "Restart to apply the change. Packages in the base image stay installed."
+msgstr "أعِد التشغيل لتطبيق التغيير. ستبقى حزم صورة النظام الأساسية مثبّتة."
+
+#: sources.js:593
+msgid "Unsupported package manager."
+msgstr "مدير الحزم غير مدعوم."
+
+#: sources.js:716
+msgid "Source: {0}"
+msgstr "المصدر: {0}"
+
+#: sources.js:719
+msgid "Identifier: {0}"
+msgstr "المعرّف: {0}"
+
+#: sources.js:722
+msgid "Snap: {0}"
+msgstr "حزمة Snap: {0}"
+
+#: sources.js:725
+msgid "Package: {0}"
+msgstr "الحزمة: {0}"
+
+#: sources.js:727
+msgid "The package was identified from the executable."
+msgstr "حُدّدت الحزمة من ملفها التنفيذي."
+
+#: sources.js:731
+msgid "Likely package: {0}"
+msgstr "الحزمة المحتملة: {0}"
+
+#: sources.js:734
+msgid "File: {0}"
+msgstr "الملف: {0}"
+
+#: sources.js:738
+msgid "Only the launcher will be removed. The app files stay in place."
+msgstr "سيُحذف الاختصار فقط. ستبقى ملفات التطبيق في مكانها."
+
+#: sources.js:744
+msgid "Launcher: {0}"
+msgstr "الاختصار: {0}"
+
+#: schemas/org.gnome.shell.extensions.app-uninstaller.gschema.xml:37
+msgid "Allow removal of system launchers without an uninstaller"
+msgstr "اسمح بإزالة اختصارات النظام التي لا تتوفر لها أداة إزالة"
+
+#: schemas/org.gnome.shell.extensions.app-uninstaller.gschema.xml:92
+msgid "Log detected installation sources"
+msgstr "سجّل مصادر التثبيت التي حُدّدت"

@@ -1,0 +1,475 @@
+# Translation template for App Uninstaller.
+# SPDX-License-Identifier: GPL-3.0-or-later
+msgid ""
+msgstr ""
+"Project-Id-Version: App Uninstaller 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-07 21:25+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: extension.js:49
+msgid "container"
+msgstr ""
+
+#: extension.js:50
+msgid "local launcher"
+msgstr ""
+
+#: extension.js:51
+msgid "manual installation"
+msgstr ""
+
+#: extension.js:52
+msgid "package"
+msgstr ""
+
+#: extension.js:164 extension.js:169 extension.js:226 extension.js:252
+#: extension.js:484
+msgid "Uninstall"
+msgstr ""
+
+#: extension.js:248
+msgid "Uninstall (unavailable)"
+msgstr ""
+
+#: extension.js:252
+msgid "Uninstall ({0})"
+msgstr ""
+
+#: extension.js:269 sources.js:76
+msgid "Unknown source"
+msgstr ""
+
+#: extension.js:271
+msgid "Detection error: {0}"
+msgstr ""
+
+#: extension.js:281 sources.js:549
+msgid "This installation source is unsupported."
+msgstr ""
+
+#: extension.js:291
+msgid "Local launcher removal is off in Settings."
+msgstr ""
+
+#: extension.js:296
+msgid "System launcher removal is off in Settings."
+msgstr ""
+
+#: extension.js:309
+msgid "This app is already being uninstalled."
+msgstr ""
+
+#: extension.js:319 extension.js:535
+msgid "Cannot uninstall “{0}”"
+msgstr ""
+
+#: extension.js:357
+msgid "Uninstall “{0}”?"
+msgstr ""
+
+#: extension.js:374
+msgid "Administrator approval is required."
+msgstr ""
+
+#: extension.js:381
+msgid "Checking affected packages…"
+msgstr ""
+
+#: extension.js:390
+msgid "Dependent packages that may be removed ({0})"
+msgstr ""
+
+#: extension.js:391
+msgid "Other packages to be removed ({0})"
+msgstr ""
+
+#: extension.js:397
+msgid "Commands:"
+msgstr ""
+
+#: extension.js:438 prefs.js:82
+msgid "Also delete data and settings"
+msgstr ""
+
+#: extension.js:450 prefs.js:84
+msgid "Also remove unused dependencies"
+msgstr ""
+
+#: extension.js:475
+msgid "Cancel"
+msgstr ""
+
+#: extension.js:492 extension.js:568
+msgid "Failed to uninstall “{0}”"
+msgstr ""
+
+#: extension.js:514
+msgid "Authentication cancelled or denied."
+msgstr ""
+
+#: extension.js:515
+msgid "exit code {0}"
+msgstr ""
+
+#: extension.js:552
+msgid "Uninstalling “{0}”…"
+msgstr ""
+
+#: extension.js:569
+msgid "Unknown error."
+msgstr ""
+
+#: extension.js:582
+msgid "“{0}” still appears to be installed"
+msgstr ""
+
+#: extension.js:583
+msgid "The launcher is still present. Check the installation source."
+msgstr ""
+
+#: extension.js:589
+msgid "“{0}” uninstalled"
+msgstr ""
+
+#: extension.js:590
+msgid "Restart to apply the change."
+msgstr ""
+
+#: prefs.js:16
+msgid "Settings"
+msgstr ""
+
+#: prefs.js:23
+msgid "Support App Uninstaller"
+msgstr ""
+
+#: prefs.js:24
+msgid "Your donation helps maintain and improve the extension."
+msgstr ""
+
+#: prefs.js:35
+msgid "Buy me a coffee"
+msgstr ""
+
+#: prefs.js:40
+msgid "App menu"
+msgstr ""
+
+#: prefs.js:45
+msgid "Show the source in the menu"
+msgstr ""
+
+#: prefs.js:46
+msgid "For example: “Uninstall (Flatpak)”."
+msgstr ""
+
+#: prefs.js:48
+msgid "Hide the menu item when uninstalling is unavailable"
+msgstr ""
+
+#: prefs.js:49
+msgid "If shown, the item explains why the app can't be removed."
+msgstr ""
+
+#: prefs.js:53
+msgid "Menu item position"
+msgstr ""
+
+#: prefs.js:54
+msgid "Before app details"
+msgstr ""
+
+#: prefs.js:54
+msgid "At the bottom"
+msgstr ""
+
+#: prefs.js:63
+msgid "Confirmation"
+msgstr ""
+
+#: prefs.js:67
+msgid "Ask before uninstalling"
+msgstr ""
+
+#: prefs.js:69
+msgid "Preview affected packages"
+msgstr ""
+
+#: prefs.js:70
+msgid "APT and Pacman show what else will be removed. RPM shows packages that depend on the app."
+msgstr ""
+
+#: prefs.js:72
+msgid "Show commands in the confirmation dialog"
+msgstr ""
+
+#: prefs.js:76
+msgid "Uninstall options"
+msgstr ""
+
+#: prefs.js:77
+msgid "You can change the removal options each time you confirm an uninstall."
+msgstr ""
+
+#: prefs.js:86
+msgid "Move AppImage files to the Trash"
+msgstr ""
+
+#: prefs.js:88
+msgid "Allow removal of local launchers"
+msgstr ""
+
+#: prefs.js:89
+msgid "Remove local shortcuts and, when identified, their standalone app files."
+msgstr ""
+
+#: prefs.js:91
+msgid "Remove from Favorites after uninstalling"
+msgstr ""
+
+#: prefs.js:93
+msgid "Show uninstall progress and completion"
+msgstr ""
+
+#: prefs.js:97
+msgid "Safety"
+msgstr ""
+
+#: prefs.js:102
+msgid "Protect essential system components"
+msgstr ""
+
+#: prefs.js:112
+msgid "Protected apps"
+msgstr ""
+
+#: prefs.js:113
+msgid "Enter a package name, a Flatpak or Snap ID, or a .desktop filename."
+msgstr ""
+
+#: prefs.js:117
+msgid "Add an app to protect"
+msgstr ""
+
+#: prefs.js:122
+msgid "Add"
+msgstr ""
+
+#: prefs.js:138
+msgid "Remove"
+msgstr ""
+
+#: sources.js:261
+msgid "Flatpak was not found."
+msgstr ""
+
+#: sources.js:273
+msgid "Flatpak · {0} (user)"
+msgstr ""
+
+#: sources.js:274
+msgid "Flatpak · {0} (system)"
+msgstr ""
+
+#: sources.js:276
+msgid "Flatpak (user)"
+msgstr ""
+
+#: sources.js:276
+msgid "Flatpak (system)"
+msgstr ""
+
+#: sources.js:291
+msgid "Snap was not found."
+msgstr ""
+
+#: sources.js:302
+msgid "Steam (game #{0})"
+msgstr ""
+
+#: sources.js:304
+msgid "Could not find Steam or xdg-open."
+msgstr ""
+
+#: sources.js:315
+msgid "Waydroid (Android app)"
+msgstr ""
+
+#: sources.js:317
+msgid "Waydroid was not found."
+msgstr ""
+
+#: sources.js:327
+msgid "Container “{0}” (Distrobox or Toolbox)"
+msgstr ""
+
+#: sources.js:330
+msgid "The launcher is not in your home directory."
+msgstr ""
+
+#: sources.js:356
+msgid "NixOS configuration"
+msgstr ""
+
+#: sources.js:357
+msgid "Remove this app from your NixOS configuration and rebuild the system."
+msgstr ""
+
+#: sources.js:360
+msgid "Could not find nix or nix-env."
+msgstr ""
+
+#: sources.js:372
+msgid "Guix was not found."
+msgstr ""
+
+#: sources.js:380
+msgid "Local launcher"
+msgstr ""
+
+#: sources.js:405
+msgid "{0} package"
+msgstr ""
+
+#: sources.js:408
+msgid "Could not find a compatible package manager."
+msgstr ""
+
+#: sources.js:422 sources.js:425
+msgid "Manual installation"
+msgstr ""
+
+#: sources.js:423 sources.js:539
+msgid "Run the vendor uninstaller yourself: {0}"
+msgstr ""
+
+#: sources.js:449
+msgid "This app is on your protected list."
+msgstr ""
+
+#: sources.js:451
+msgid "System protection is on for this component."
+msgstr ""
+
+#: sources.js:463
+msgid "Could not find a system copy of pkexec."
+msgstr ""
+
+#: sources.js:469
+msgid "Could not find a system copy of {0}."
+msgstr ""
+
+#: sources.js:490
+msgid "Invalid package or app ID."
+msgstr ""
+
+#: sources.js:511
+msgid "Confirm the uninstall in Steam."
+msgstr ""
+
+#: sources.js:522
+msgid "For packages managed by Home Manager, edit your configuration."
+msgstr ""
+
+#: sources.js:535
+msgid "Only the launcher will be removed. The app stays in the container."
+msgstr ""
+
+#: sources.js:541
+msgid "The system launcher cannot be removed safely."
+msgstr ""
+
+#: sources.js:578
+msgid "Restart to apply the change. Packages in the base image stay installed."
+msgstr ""
+
+#: sources.js:593
+msgid "Unsupported package manager."
+msgstr ""
+
+#: sources.js:716
+msgid "Source: {0}"
+msgstr ""
+
+#: sources.js:719
+msgid "Identifier: {0}"
+msgstr ""
+
+#: sources.js:722
+msgid "Snap: {0}"
+msgstr ""
+
+#: sources.js:725
+msgid "Package: {0}"
+msgstr ""
+
+#: sources.js:727
+msgid "The package was identified from the executable."
+msgstr ""
+
+#: sources.js:731
+msgid "Likely package: {0}"
+msgstr ""
+
+#: sources.js:734
+msgid "File: {0}"
+msgstr ""
+
+#: sources.js:738
+msgid "Only the launcher will be removed. The app files stay in place."
+msgstr ""
+
+#: sources.js:744
+msgid "Launcher: {0}"
+msgstr ""
+
+#: schemas/org.gnome.shell.extensions.app-uninstaller.gschema.xml:37
+msgid "Allow removal of system launchers without an uninstaller"
+msgstr ""
+
+#: schemas/org.gnome.shell.extensions.app-uninstaller.gschema.xml:92
+msgid "Log detected installation sources"
+msgstr ""
+
+#: sources.js
+msgid "Standalone installation"
+msgstr ""
+
+#: extension.js
+msgid "standalone installation"
+msgstr ""
+
+#: confirmation.js
+msgid "The launcher and these files will be moved to the Trash."
+msgstr ""
+
+#: sources.js
+msgid "The files have changed. Reopen the uninstall menu to review them."
+msgstr ""
+
+#: sources.js
+msgid "Could not find the Wine executable used by this launcher."
+msgstr ""
+
+#: sources.js
+msgid "Could not find an existing Wine prefix at {0}."
+msgstr ""
+
+#: sources.js
+msgid "Could not find env to start Wine."
+msgstr ""
+
+#: sources.js
+msgid "Select this app in Wine’s list of installed programs to uninstall it."
+msgstr ""
+
+#: sources.js
+msgid "Wine prefix: {0}"
+msgstr ""

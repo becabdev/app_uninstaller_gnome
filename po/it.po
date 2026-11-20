@@ -1,0 +1,438 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+msgid ""
+msgstr ""
+"Project-Id-Version: App Uninstaller 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-20 21:25+0100\n"
+"PO-Revision-Date: 2026-11-20 00:00+0100\n"
+"Last-Translator: App Uninstaller contributors\n"
+"Language-Team: Italian\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: extension.js:49
+msgid "container"
+msgstr "contenitore"
+
+#: extension.js:50
+msgid "local launcher"
+msgstr "lanciatore locale"
+
+#: extension.js:51
+msgid "manual installation"
+msgstr "installazione manuale"
+
+#: extension.js:52
+msgid "package"
+msgstr "pacchetto"
+
+#: extension.js:164 extension.js:169 extension.js:226 extension.js:252
+#: extension.js:484
+msgid "Uninstall"
+msgstr "Disinstalla"
+
+#: extension.js:248
+msgid "Uninstall (unavailable)"
+msgstr "Disinstalla (non disponibile)"
+
+#: extension.js:252
+msgid "Uninstall ({0})"
+msgstr "Disinstalla ({0})"
+
+#: extension.js:269 sources.js:76
+msgid "Unknown source"
+msgstr "Origine sconosciuta"
+
+#: extension.js:271
+msgid "Detection error: {0}"
+msgstr "Errore di rilevamento: {0}"
+
+#: extension.js:281 sources.js:549
+msgid "This installation source is unsupported."
+msgstr "Questa origine di installazione non è supportata."
+
+#: extension.js:291
+msgid "Local launcher removal is off in Settings."
+msgstr "La rimozione dei lanciatori locali è disattivata nelle impostazioni."
+
+#: extension.js:296
+msgid "System launcher removal is off in Settings."
+msgstr "La rimozione dei lanciatori di sistema è disattivata nelle impostazioni."
+
+#: extension.js:309
+msgid "This app is already being uninstalled."
+msgstr "Questa applicazione è già in fase di disinstallazione."
+
+#: extension.js:319 extension.js:535
+msgid "Cannot uninstall “{0}”"
+msgstr "Impossibile disinstallare «{0}»"
+
+#: extension.js:357
+msgid "Uninstall “{0}”?"
+msgstr "Disinstallare «{0}»?"
+
+#: extension.js:374
+msgid "Administrator approval is required."
+msgstr "È necessaria l’autorizzazione di un amministratore."
+
+#: extension.js:381
+msgid "Checking affected packages…"
+msgstr "Verifica dei pacchetti interessati…"
+
+#: extension.js:390
+msgid "Dependent packages that may be removed ({0})"
+msgstr "Pacchetti dipendenti che potrebbero essere rimossi ({0})"
+
+#: extension.js:391
+msgid "Other packages to be removed ({0})"
+msgstr "Altri pacchetti che verranno rimossi ({0})"
+
+#: extension.js:397
+msgid "Commands:"
+msgstr "Comandi:"
+
+#: extension.js:438 prefs.js:82
+msgid "Also delete data and settings"
+msgstr "Elimina anche i dati e le impostazioni"
+
+#: extension.js:450 prefs.js:84
+msgid "Also remove unused dependencies"
+msgstr "Rimuovi anche le dipendenze inutilizzate"
+
+#: extension.js:475
+msgid "Cancel"
+msgstr "Annulla"
+
+#: extension.js:492 extension.js:568
+msgid "Failed to uninstall “{0}”"
+msgstr "Disinstallazione di «{0}» non riuscita"
+
+#: extension.js:514
+msgid "Authentication cancelled or denied."
+msgstr "Autenticazione annullata o negata."
+
+#: extension.js:515
+msgid "exit code {0}"
+msgstr "codice di uscita {0}"
+
+#: extension.js:552
+msgid "Uninstalling “{0}”…"
+msgstr "Disinstallazione di «{0}»…"
+
+#: extension.js:569
+msgid "Unknown error."
+msgstr "Errore sconosciuto."
+
+#: extension.js:582
+msgid "“{0}” still appears to be installed"
+msgstr "«{0}» risulta ancora installata"
+
+#: extension.js:583
+msgid "The launcher is still present. Check the installation source."
+msgstr "Il lanciatore è ancora presente. Controllare l’origine dell’installazione."
+
+#: extension.js:589
+msgid "“{0}” uninstalled"
+msgstr "«{0}» è stata disinstallata"
+
+#: extension.js:590
+msgid "Restart to apply the change."
+msgstr "Riavviare per applicare la modifica."
+
+#: prefs.js:16
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: prefs.js:23
+msgid "Support App Uninstaller"
+msgstr "Sostieni App Uninstaller"
+
+#: prefs.js:24
+msgid "Your donation helps maintain and improve the extension."
+msgstr "La tua donazione aiuta a mantenere e migliorare l’estensione."
+
+#: prefs.js:35
+msgid "Buy me a coffee"
+msgstr "Offrimi un caffè"
+
+#: prefs.js:40
+msgid "App menu"
+msgstr "Menu dell’applicazione"
+
+#: prefs.js:45
+msgid "Show the source in the menu"
+msgstr "Mostra l’origine nel menu"
+
+#: prefs.js:46
+msgid "For example: “Uninstall (Flatpak)”."
+msgstr "Ad esempio: «Disinstalla (Flatpak)»."
+
+#: prefs.js:48
+msgid "Hide the menu item when uninstalling is unavailable"
+msgstr "Nascondi la voce di menu quando non è possibile disinstallare"
+
+#: prefs.js:49
+msgid "If shown, the item explains why the app can't be removed."
+msgstr "Se visibile, la voce spiega perché non è possibile rimuovere l’applicazione."
+
+#: prefs.js:53
+msgid "Menu item position"
+msgstr "Posizione nel menu"
+
+#: prefs.js:54
+msgid "Before app details"
+msgstr "Prima dei dettagli dell’applicazione"
+
+#: prefs.js:54
+msgid "At the bottom"
+msgstr "In fondo al menu"
+
+#: prefs.js:63
+msgid "Confirmation"
+msgstr "Conferma"
+
+#: prefs.js:67
+msgid "Ask before uninstalling"
+msgstr "Chiedi conferma prima di disinstallare"
+
+#: prefs.js:69
+msgid "Preview affected packages"
+msgstr "Mostra l’anteprima dei pacchetti interessati"
+
+#: prefs.js:70
+msgid "APT and Pacman show what else will be removed. RPM shows packages that depend on the app."
+msgstr "APT e Pacman mostrano cos’altro verrà rimosso. RPM mostra i pacchetti che dipendono dall’applicazione."
+
+#: prefs.js:72
+msgid "Show commands in the confirmation dialog"
+msgstr "Mostra i comandi nella finestra di conferma"
+
+#: prefs.js:76
+msgid "Uninstall options"
+msgstr "Opzioni di disinstallazione"
+
+#: prefs.js:77
+msgid "You can change the removal options each time you confirm an uninstall."
+msgstr "Puoi modificare le opzioni ogni volta che confermi una disinstallazione."
+
+#: prefs.js:86
+msgid "Move AppImage files to the Trash"
+msgstr "Sposta i file AppImage nel cestino"
+
+#: prefs.js:88
+msgid "Allow removal of local launchers"
+msgstr "Consenti la rimozione dei lanciatori locali"
+
+#: prefs.js:89
+msgid "This only removes the shortcut for apps such as Wine or browser apps."
+msgstr "Per le applicazioni di Wine o del browser viene rimosso solo il collegamento."
+
+#: prefs.js:91
+msgid "Remove from Favorites after uninstalling"
+msgstr "Rimuovi dai preferiti dopo la disinstallazione"
+
+#: prefs.js:93
+msgid "Show uninstall progress and completion"
+msgstr "Mostra l’avanzamento e il completamento della disinstallazione"
+
+#: prefs.js:97
+msgid "Safety"
+msgstr "Sicurezza"
+
+#: prefs.js:102
+msgid "Protect essential system components"
+msgstr "Proteggi i componenti essenziali del sistema"
+
+#: prefs.js:112
+msgid "Protected apps"
+msgstr "Applicazioni protette"
+
+#: prefs.js:113
+msgid "Enter a package name, a Flatpak or Snap ID, or a .desktop filename."
+msgstr "Inserisci il nome di un pacchetto, un ID Flatpak o Snap oppure il nome di un file .desktop."
+
+#: prefs.js:117
+msgid "Add an app to protect"
+msgstr "Aggiungi un’applicazione da proteggere"
+
+#: prefs.js:122
+msgid "Add"
+msgstr "Aggiungi"
+
+#: prefs.js:138
+msgid "Remove"
+msgstr "Rimuovi"
+
+#: sources.js:261
+msgid "Flatpak was not found."
+msgstr "Flatpak non è stato trovato."
+
+#: sources.js:273
+msgid "Flatpak · {0} (user)"
+msgstr "Flatpak · {0} (utente)"
+
+#: sources.js:274
+msgid "Flatpak · {0} (system)"
+msgstr "Flatpak · {0} (sistema)"
+
+#: sources.js:276
+msgid "Flatpak (user)"
+msgstr "Flatpak (utente)"
+
+#: sources.js:276
+msgid "Flatpak (system)"
+msgstr "Flatpak (sistema)"
+
+#: sources.js:291
+msgid "Snap was not found."
+msgstr "Snap non è stato trovato."
+
+#: sources.js:302
+msgid "Steam (game #{0})"
+msgstr "Steam (gioco n. {0})"
+
+#: sources.js:304
+msgid "Could not find Steam or xdg-open."
+msgstr "Impossibile trovare Steam o xdg-open."
+
+#: sources.js:315
+msgid "Waydroid (Android app)"
+msgstr "Waydroid (app Android)"
+
+#: sources.js:317
+msgid "Waydroid was not found."
+msgstr "Waydroid non è stato trovato."
+
+#: sources.js:327
+msgid "Container “{0}” (Distrobox or Toolbox)"
+msgstr "Contenitore «{0}» (Distrobox o Toolbox)"
+
+#: sources.js:330
+msgid "The launcher is not in your home directory."
+msgstr "Il lanciatore non si trova nella cartella personale."
+
+#: sources.js:356
+msgid "NixOS configuration"
+msgstr "Configurazione di NixOS"
+
+#: sources.js:357
+msgid "Remove this app from your NixOS configuration and rebuild the system."
+msgstr "Rimuovi l’applicazione dalla configurazione di NixOS e ricostruisci il sistema."
+
+#: sources.js:360
+msgid "Could not find nix or nix-env."
+msgstr "Impossibile trovare nix o nix-env."
+
+#: sources.js:372
+msgid "Guix was not found."
+msgstr "Guix non è stato trovato."
+
+#: sources.js:380
+msgid "Local launcher"
+msgstr "Lanciatore locale"
+
+#: sources.js:405
+msgid "{0} package"
+msgstr "Pacchetto {0}"
+
+#: sources.js:408
+msgid "Could not find a compatible package manager."
+msgstr "Impossibile trovare un gestore di pacchetti compatibile."
+
+#: sources.js:422 sources.js:425
+msgid "Manual installation"
+msgstr "Installazione manuale"
+
+#: sources.js:423 sources.js:539
+msgid "Run the vendor uninstaller yourself: {0}"
+msgstr "Avvia manualmente il programma di disinstallazione del fornitore: {0}"
+
+#: sources.js:449
+msgid "This app is on your protected list."
+msgstr "L’applicazione è nell’elenco di quelle protette."
+
+#: sources.js:451
+msgid "System protection is on for this component."
+msgstr "La protezione del sistema è attiva per questo componente."
+
+#: sources.js:463
+msgid "Could not find a system copy of pkexec."
+msgstr "Impossibile trovare una copia di sistema di pkexec."
+
+#: sources.js:469
+msgid "Could not find a system copy of {0}."
+msgstr "Impossibile trovare una copia di sistema di {0}."
+
+#: sources.js:490
+msgid "Invalid package or app ID."
+msgstr "Identificativo del pacchetto o dell’applicazione non valido."
+
+#: sources.js:511
+msgid "Confirm the uninstall in Steam."
+msgstr "Conferma la disinstallazione in Steam."
+
+#: sources.js:522
+msgid "For packages managed by Home Manager, edit your configuration."
+msgstr "Per i pacchetti gestiti da Home Manager modifica la configurazione."
+
+#: sources.js:535
+msgid "Only the launcher will be removed. The app stays in the container."
+msgstr "Verrà rimosso solo il lanciatore. L’applicazione rimane nel contenitore."
+
+#: sources.js:541
+msgid "The system launcher cannot be removed safely."
+msgstr "Non è possibile rimuovere in sicurezza questo lanciatore di sistema."
+
+#: sources.js:578
+msgid "Restart to apply the change. Packages in the base image stay installed."
+msgstr "Riavviare per applicare la modifica. I pacchetti dell’immagine di base restano installati."
+
+#: sources.js:593
+msgid "Unsupported package manager."
+msgstr "Gestore di pacchetti non supportato."
+
+#: sources.js:716
+msgid "Source: {0}"
+msgstr "Origine: {0}"
+
+#: sources.js:719
+msgid "Identifier: {0}"
+msgstr "Identificativo: {0}"
+
+#: sources.js:722
+msgid "Snap: {0}"
+msgstr "Snap: {0}"
+
+#: sources.js:725
+msgid "Package: {0}"
+msgstr "Pacchetto: {0}"
+
+#: sources.js:727
+msgid "The package was identified from the executable."
+msgstr "Il pacchetto è stato identificato dal file eseguibile."
+
+#: sources.js:731
+msgid "Likely package: {0}"
+msgstr "Pacchetto probabile: {0}"
+
+#: sources.js:734
+msgid "File: {0}"
+msgstr "File: {0}"
+
+#: sources.js:738
+msgid "Only the launcher will be removed. The app files stay in place."
+msgstr "Verrà rimosso solo il lanciatore. I file dell’applicazione rimangono al loro posto."
+
+#: sources.js:744
+msgid "Launcher: {0}"
+msgstr "Lanciatore: {0}"
+
+#: schemas/org.gnome.shell.extensions.app-uninstaller.gschema.xml:37
+msgid "Allow removal of system launchers without an uninstaller"
+msgstr "Consenti la rimozione dei lanciatori di sistema senza programma di disinstallazione"
+
+#: schemas/org.gnome.shell.extensions.app-uninstaller.gschema.xml:92
+msgid "Log detected installation sources"
+msgstr "Registra le origini di installazione rilevate"

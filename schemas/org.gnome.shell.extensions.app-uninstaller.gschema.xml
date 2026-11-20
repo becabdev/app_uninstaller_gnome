@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="app-uninstaller">
+  <schema id="org.gnome.shell.extensions.app-uninstaller"
+          path="/org/gnome/shell/extensions/app-uninstaller/">
+
+    <key name="confirm-before-uninstall" type="b">
+      <default>true</default>
+      <summary>Ask before uninstalling</summary>
+    </key>
+
+    <key name="show-source-in-label" type="b">
+      <default>true</default>
+      <summary>Show the source in the menu</summary>
+    </key>
+
+    <key name="hide-unsupported" type="b">
+      <default>true</default>
+      <summary>Hide the menu item when uninstalling is unavailable</summary>
+    </key>
+
+    <key name="item-position" type="s">
+      <choices>
+        <choice value="before-details"/>
+        <choice value="bottom"/>
+      </choices>
+      <default>"before-details"</default>
+      <summary>Menu item position</summary>
+    </key>
+
+    <key name="allow-launcher-removal" type="b">
+      <default>true</default>
+      <summary>Allow removal of local launchers</summary>
+    </key>
+
+    <key name="allow-system-launcher-removal" type="b">
+      <default>false</default>
+      <summary>Allow removal of system launchers without an uninstaller</summary>
+    </key>
+
+    <key name="use-trash" type="b">
+      <default>true</default>
+      <summary>Move AppImage files to the Trash</summary>
+    </key>
+
+    <key name="delete-user-data" type="b">
+      <default>false</default>
+      <summary>Also delete data and settings</summary>
+    </key>
+
+    <key name="remove-unused-deps" type="b">
+      <default>false</default>
+      <summary>Also remove unused dependencies</summary>
+    </key>
+
+    <key name="show-dependents-preview" type="b">
+      <default>true</default>
+      <summary>Preview affected packages</summary>
+    </key>
+
+    <key name="protect-system-apps" type="b">
+      <default>true</default>
+      <summary>Protect essential system components</summary>
+    </key>
+
+    <key name="protected-apps" type="as">
+      <default>[]</default>
+      <summary>Protected apps</summary>
+    </key>
+
+    <key name="remove-from-favorites" type="b">
+      <default>true</default>
+      <summary>Remove from Favorites after uninstalling</summary>
+    </key>
+
+    <key name="notify-progress" type="b">
+      <default>true</default>
+      <summary>Show uninstall progress and completion</summary>
+    </key>
+
+    <key name="show-command" type="b">
+      <default>false</default>
+      <summary>Show commands in the confirmation dialog</summary>
+    </key>
+
+    <key name="debug-log" type="b">
+      <default>false</default>
+      <summary>Log detected installation sources</summary>
+    </key>
+  </schema>
+</schemalist>

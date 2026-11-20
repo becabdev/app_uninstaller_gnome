@@ -1,0 +1,438 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+msgid ""
+msgstr ""
+"Project-Id-Version: App Uninstaller 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-20 21:25+0100\n"
+"PO-Revision-Date: 2026-11-20 00:00+0100\n"
+"Last-Translator: App Uninstaller contributors\n"
+"Language-Team: Korean\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: extension.js:49
+msgid "container"
+msgstr "컨테이너"
+
+#: extension.js:50
+msgid "local launcher"
+msgstr "로컬 바로 가기"
+
+#: extension.js:51
+msgid "manual installation"
+msgstr "수동 설치"
+
+#: extension.js:52
+msgid "package"
+msgstr "패키지"
+
+#: extension.js:164 extension.js:169 extension.js:226 extension.js:252
+#: extension.js:484
+msgid "Uninstall"
+msgstr "제거"
+
+#: extension.js:248
+msgid "Uninstall (unavailable)"
+msgstr "제거(사용 불가)"
+
+#: extension.js:252
+msgid "Uninstall ({0})"
+msgstr "제거({0})"
+
+#: extension.js:269 sources.js:76
+msgid "Unknown source"
+msgstr "알 수 없는 설치 출처"
+
+#: extension.js:271
+msgid "Detection error: {0}"
+msgstr "설치 출처 확인 오류: {0}"
+
+#: extension.js:281 sources.js:549
+msgid "This installation source is unsupported."
+msgstr "이 설치 출처는 지원하지 않습니다."
+
+#: extension.js:291
+msgid "Local launcher removal is off in Settings."
+msgstr "설정에서 로컬 바로 가기 제거를 껐습니다."
+
+#: extension.js:296
+msgid "System launcher removal is off in Settings."
+msgstr "설정에서 시스템 바로 가기 제거를 껐습니다."
+
+#: extension.js:309
+msgid "This app is already being uninstalled."
+msgstr "이 앱은 이미 제거 중입니다."
+
+#: extension.js:319 extension.js:535
+msgid "Cannot uninstall “{0}”"
+msgstr "‘{0}’을(를) 제거할 수 없음"
+
+#: extension.js:357
+msgid "Uninstall “{0}”?"
+msgstr "‘{0}’을(를) 제거할까요?"
+
+#: extension.js:374
+msgid "Administrator approval is required."
+msgstr "관리자 승인이 필요합니다."
+
+#: extension.js:381
+msgid "Checking affected packages…"
+msgstr "영향을 받는 패키지를 확인하는 중…"
+
+#: extension.js:390
+msgid "Dependent packages that may be removed ({0})"
+msgstr "이 패키지에 의존하며 함께 제거될 수 있는 패키지({0}개)"
+
+#: extension.js:391
+msgid "Other packages to be removed ({0})"
+msgstr "함께 제거할 다른 패키지({0}개)"
+
+#: extension.js:397
+msgid "Commands:"
+msgstr "명령:"
+
+#: extension.js:438 prefs.js:82
+msgid "Also delete data and settings"
+msgstr "데이터와 설정도 삭제"
+
+#: extension.js:450 prefs.js:84
+msgid "Also remove unused dependencies"
+msgstr "사용하지 않는 의존 패키지도 제거"
+
+#: extension.js:475
+msgid "Cancel"
+msgstr "취소"
+
+#: extension.js:492 extension.js:568
+msgid "Failed to uninstall “{0}”"
+msgstr "‘{0}’ 제거 실패"
+
+#: extension.js:514
+msgid "Authentication cancelled or denied."
+msgstr "인증이 취소되었거나 거부되었습니다."
+
+#: extension.js:515
+msgid "exit code {0}"
+msgstr "종료 코드 {0}"
+
+#: extension.js:552
+msgid "Uninstalling “{0}”…"
+msgstr "‘{0}’ 제거 중…"
+
+#: extension.js:569
+msgid "Unknown error."
+msgstr "알 수 없는 오류입니다."
+
+#: extension.js:582
+msgid "“{0}” still appears to be installed"
+msgstr "‘{0}’이(가) 아직 설치되어 있는 것으로 보입니다"
+
+#: extension.js:583
+msgid "The launcher is still present. Check the installation source."
+msgstr "바로 가기가 남아 있습니다. 설치 출처를 확인하세요."
+
+#: extension.js:589
+msgid "“{0}” uninstalled"
+msgstr "‘{0}’ 제거 완료"
+
+#: extension.js:590
+msgid "Restart to apply the change."
+msgstr "변경 사항을 적용하려면 다시 시작하세요."
+
+#: prefs.js:16
+msgid "Settings"
+msgstr "설정"
+
+#: prefs.js:23
+msgid "Support App Uninstaller"
+msgstr "App Uninstaller 후원하기"
+
+#: prefs.js:24
+msgid "Your donation helps maintain and improve the extension."
+msgstr "후원금은 확장 기능의 유지보수와 개선에 쓰입니다."
+
+#: prefs.js:35
+msgid "Buy me a coffee"
+msgstr "커피 한 잔 사 주기"
+
+#: prefs.js:40
+msgid "App menu"
+msgstr "앱 메뉴"
+
+#: prefs.js:45
+msgid "Show the source in the menu"
+msgstr "메뉴에 설치 출처 표시"
+
+#: prefs.js:46
+msgid "For example: “Uninstall (Flatpak)”."
+msgstr "예: ‘제거(Flatpak)’"
+
+#: prefs.js:48
+msgid "Hide the menu item when uninstalling is unavailable"
+msgstr "제거할 수 없으면 메뉴 항목 숨기기"
+
+#: prefs.js:49
+msgid "If shown, the item explains why the app can't be removed."
+msgstr "항목을 표시하면 선택했을 때 제거할 수 없는 이유를 보여 줍니다."
+
+#: prefs.js:53
+msgid "Menu item position"
+msgstr "메뉴 항목 위치"
+
+#: prefs.js:54
+msgid "Before app details"
+msgstr "앱 상세 정보 위"
+
+#: prefs.js:54
+msgid "At the bottom"
+msgstr "메뉴 맨 아래"
+
+#: prefs.js:63
+msgid "Confirmation"
+msgstr "확인"
+
+#: prefs.js:67
+msgid "Ask before uninstalling"
+msgstr "제거 전에 묻기"
+
+#: prefs.js:69
+msgid "Preview affected packages"
+msgstr "영향을 받는 패키지 미리 보기"
+
+#: prefs.js:70
+msgid "APT and Pacman show what else will be removed. RPM shows packages that depend on the app."
+msgstr "APT와 Pacman은 함께 제거할 패키지를 보여 줍니다. RPM은 이 앱에 의존하는 패키지를 보여 줍니다."
+
+#: prefs.js:72
+msgid "Show commands in the confirmation dialog"
+msgstr "확인 창에 명령 표시"
+
+#: prefs.js:76
+msgid "Uninstall options"
+msgstr "제거 옵션"
+
+#: prefs.js:77
+msgid "You can change the removal options each time you confirm an uninstall."
+msgstr "제거를 확인할 때마다 옵션을 바꿀 수 있습니다."
+
+#: prefs.js:86
+msgid "Move AppImage files to the Trash"
+msgstr "AppImage 파일을 휴지통으로 이동"
+
+#: prefs.js:88
+msgid "Allow removal of local launchers"
+msgstr "로컬 바로 가기 제거 허용"
+
+#: prefs.js:89
+msgid "This only removes the shortcut for apps such as Wine or browser apps."
+msgstr "Wine 앱이나 브라우저 앱의 경우 바로 가기만 제거합니다."
+
+#: prefs.js:91
+msgid "Remove from Favorites after uninstalling"
+msgstr "제거한 앱을 즐겨찾기에서 삭제"
+
+#: prefs.js:93
+msgid "Show uninstall progress and completion"
+msgstr "제거 진행 상황과 완료 알림 표시"
+
+#: prefs.js:97
+msgid "Safety"
+msgstr "안전"
+
+#: prefs.js:102
+msgid "Protect essential system components"
+msgstr "필수 시스템 구성 요소 보호"
+
+#: prefs.js:112
+msgid "Protected apps"
+msgstr "보호된 앱"
+
+#: prefs.js:113
+msgid "Enter a package name, a Flatpak or Snap ID, or a .desktop filename."
+msgstr "패키지 이름, Flatpak 또는 Snap ID, .desktop 파일 이름 중 하나를 입력하세요."
+
+#: prefs.js:117
+msgid "Add an app to protect"
+msgstr "보호할 앱 추가"
+
+#: prefs.js:122
+msgid "Add"
+msgstr "추가"
+
+#: prefs.js:138
+msgid "Remove"
+msgstr "목록에서 빼기"
+
+#: sources.js:261
+msgid "Flatpak was not found."
+msgstr "Flatpak을 찾을 수 없습니다."
+
+#: sources.js:273
+msgid "Flatpak · {0} (user)"
+msgstr "Flatpak · {0}(사용자)"
+
+#: sources.js:274
+msgid "Flatpak · {0} (system)"
+msgstr "Flatpak · {0}(시스템)"
+
+#: sources.js:276
+msgid "Flatpak (user)"
+msgstr "Flatpak(사용자)"
+
+#: sources.js:276
+msgid "Flatpak (system)"
+msgstr "Flatpak(시스템)"
+
+#: sources.js:291
+msgid "Snap was not found."
+msgstr "Snap을 찾을 수 없습니다."
+
+#: sources.js:302
+msgid "Steam (game #{0})"
+msgstr "Steam(게임 #{0})"
+
+#: sources.js:304
+msgid "Could not find Steam or xdg-open."
+msgstr "Steam과 xdg-open을 모두 찾을 수 없습니다."
+
+#: sources.js:315
+msgid "Waydroid (Android app)"
+msgstr "Waydroid(Android 앱)"
+
+#: sources.js:317
+msgid "Waydroid was not found."
+msgstr "Waydroid를 찾을 수 없습니다."
+
+#: sources.js:327
+msgid "Container “{0}” (Distrobox or Toolbox)"
+msgstr "컨테이너 ‘{0}’(Distrobox 또는 Toolbox)"
+
+#: sources.js:330
+msgid "The launcher is not in your home directory."
+msgstr "바로 가기가 홈 폴더에 없습니다."
+
+#: sources.js:356
+msgid "NixOS configuration"
+msgstr "NixOS 구성"
+
+#: sources.js:357
+msgid "Remove this app from your NixOS configuration and rebuild the system."
+msgstr "NixOS 구성에서 이 앱을 제거한 뒤 시스템을 다시 빌드하세요."
+
+#: sources.js:360
+msgid "Could not find nix or nix-env."
+msgstr "nix와 nix-env를 모두 찾을 수 없습니다."
+
+#: sources.js:372
+msgid "Guix was not found."
+msgstr "Guix를 찾을 수 없습니다."
+
+#: sources.js:380
+msgid "Local launcher"
+msgstr "로컬 바로 가기"
+
+#: sources.js:405
+msgid "{0} package"
+msgstr "{0} 패키지"
+
+#: sources.js:408
+msgid "Could not find a compatible package manager."
+msgstr "호환되는 패키지 관리자를 찾을 수 없습니다."
+
+#: sources.js:422 sources.js:425
+msgid "Manual installation"
+msgstr "수동 설치"
+
+#: sources.js:423 sources.js:539
+msgid "Run the vendor uninstaller yourself: {0}"
+msgstr "제공업체의 제거 프로그램을 직접 실행하세요: {0}"
+
+#: sources.js:449
+msgid "This app is on your protected list."
+msgstr "이 앱은 보호 목록에 있습니다."
+
+#: sources.js:451
+msgid "System protection is on for this component."
+msgstr "이 구성 요소는 시스템 보호 대상입니다."
+
+#: sources.js:463
+msgid "Could not find a system copy of pkexec."
+msgstr "시스템에 설치된 pkexec를 찾을 수 없습니다."
+
+#: sources.js:469
+msgid "Could not find a system copy of {0}."
+msgstr "시스템에 설치된 {0}을(를) 찾을 수 없습니다."
+
+#: sources.js:490
+msgid "Invalid package or app ID."
+msgstr "패키지 또는 앱 ID가 올바르지 않습니다."
+
+#: sources.js:511
+msgid "Confirm the uninstall in Steam."
+msgstr "Steam에서 제거를 확인하세요."
+
+#: sources.js:522
+msgid "For packages managed by Home Manager, edit your configuration."
+msgstr "Home Manager에서 관리하는 패키지는 구성을 편집하세요."
+
+#: sources.js:535
+msgid "Only the launcher will be removed. The app stays in the container."
+msgstr "바로 가기만 제거합니다. 앱은 컨테이너에 남습니다."
+
+#: sources.js:541
+msgid "The system launcher cannot be removed safely."
+msgstr "이 시스템 바로 가기는 안전하게 제거할 수 없습니다."
+
+#: sources.js:578
+msgid "Restart to apply the change. Packages in the base image stay installed."
+msgstr "변경 사항을 적용하려면 다시 시작하세요. 기본 이미지에 포함된 패키지는 그대로 유지됩니다."
+
+#: sources.js:593
+msgid "Unsupported package manager."
+msgstr "지원하지 않는 패키지 관리자입니다."
+
+#: sources.js:716
+msgid "Source: {0}"
+msgstr "설치 출처: {0}"
+
+#: sources.js:719
+msgid "Identifier: {0}"
+msgstr "식별자: {0}"
+
+#: sources.js:722
+msgid "Snap: {0}"
+msgstr "Snap: {0}"
+
+#: sources.js:725
+msgid "Package: {0}"
+msgstr "패키지: {0}"
+
+#: sources.js:727
+msgid "The package was identified from the executable."
+msgstr "실행 파일을 바탕으로 패키지를 확인했습니다."
+
+#: sources.js:731
+msgid "Likely package: {0}"
+msgstr "추정 패키지: {0}"
+
+#: sources.js:734
+msgid "File: {0}"
+msgstr "파일: {0}"
+
+#: sources.js:738
+msgid "Only the launcher will be removed. The app files stay in place."
+msgstr "바로 가기만 제거합니다. 앱 파일은 그대로 유지됩니다."
+
+#: sources.js:744
+msgid "Launcher: {0}"
+msgstr "바로 가기: {0}"
+
+#: schemas/org.gnome.shell.extensions.app-uninstaller.gschema.xml:37
+msgid "Allow removal of system launchers without an uninstaller"
+msgstr "제거 프로그램이 없는 시스템 바로 가기 제거 허용"
+
+#: schemas/org.gnome.shell.extensions.app-uninstaller.gschema.xml:92
+msgid "Log detected installation sources"
+msgstr "확인한 설치 출처를 로그에 기록"

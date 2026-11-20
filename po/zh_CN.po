@@ -1,0 +1,438 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+msgid ""
+msgstr ""
+"Project-Id-Version: App Uninstaller 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-20 21:25+0100\n"
+"PO-Revision-Date: 2026-11-20 00:00+0100\n"
+"Last-Translator: App Uninstaller contributors\n"
+"Language-Team: Simplified Chinese\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: extension.js:49
+msgid "container"
+msgstr "容器"
+
+#: extension.js:50
+msgid "local launcher"
+msgstr "本地启动器"
+
+#: extension.js:51
+msgid "manual installation"
+msgstr "手动安装"
+
+#: extension.js:52
+msgid "package"
+msgstr "软件包"
+
+#: extension.js:164 extension.js:169 extension.js:226 extension.js:252
+#: extension.js:484
+msgid "Uninstall"
+msgstr "卸载"
+
+#: extension.js:248
+msgid "Uninstall (unavailable)"
+msgstr "卸载（不可用）"
+
+#: extension.js:252
+msgid "Uninstall ({0})"
+msgstr "卸载（{0}）"
+
+#: extension.js:269 sources.js:76
+msgid "Unknown source"
+msgstr "未知来源"
+
+#: extension.js:271
+msgid "Detection error: {0}"
+msgstr "检测失败：{0}"
+
+#: extension.js:281 sources.js:549
+msgid "This installation source is unsupported."
+msgstr "不支持此安装来源。"
+
+#: extension.js:291
+msgid "Local launcher removal is off in Settings."
+msgstr "设置中已关闭本地启动器移除功能。"
+
+#: extension.js:296
+msgid "System launcher removal is off in Settings."
+msgstr "设置中已关闭系统启动器移除功能。"
+
+#: extension.js:309
+msgid "This app is already being uninstalled."
+msgstr "此应用正在卸载。"
+
+#: extension.js:319 extension.js:535
+msgid "Cannot uninstall “{0}”"
+msgstr "无法卸载“{0}”"
+
+#: extension.js:357
+msgid "Uninstall “{0}”?"
+msgstr "要卸载“{0}”吗？"
+
+#: extension.js:374
+msgid "Administrator approval is required."
+msgstr "需要管理员授权。"
+
+#: extension.js:381
+msgid "Checking affected packages…"
+msgstr "正在检查受影响的软件包…"
+
+#: extension.js:390
+msgid "Dependent packages that may be removed ({0})"
+msgstr "可能会被移除的依赖方软件包（{0}）"
+
+#: extension.js:391
+msgid "Other packages to be removed ({0})"
+msgstr "将一并移除的其他软件包（{0}）"
+
+#: extension.js:397
+msgid "Commands:"
+msgstr "命令："
+
+#: extension.js:438 prefs.js:82
+msgid "Also delete data and settings"
+msgstr "同时删除数据和设置"
+
+#: extension.js:450 prefs.js:84
+msgid "Also remove unused dependencies"
+msgstr "同时移除不再使用的依赖项"
+
+#: extension.js:475
+msgid "Cancel"
+msgstr "取消"
+
+#: extension.js:492 extension.js:568
+msgid "Failed to uninstall “{0}”"
+msgstr "卸载“{0}”失败"
+
+#: extension.js:514
+msgid "Authentication cancelled or denied."
+msgstr "身份验证已取消或被拒绝。"
+
+#: extension.js:515
+msgid "exit code {0}"
+msgstr "退出代码 {0}"
+
+#: extension.js:552
+msgid "Uninstalling “{0}”…"
+msgstr "正在卸载“{0}”…"
+
+#: extension.js:569
+msgid "Unknown error."
+msgstr "未知错误。"
+
+#: extension.js:582
+msgid "“{0}” still appears to be installed"
+msgstr "“{0}”似乎仍处于安装状态"
+
+#: extension.js:583
+msgid "The launcher is still present. Check the installation source."
+msgstr "启动器仍然存在。请检查安装来源。"
+
+#: extension.js:589
+msgid "“{0}” uninstalled"
+msgstr "已卸载“{0}”"
+
+#: extension.js:590
+msgid "Restart to apply the change."
+msgstr "请重启以应用更改。"
+
+#: prefs.js:16
+msgid "Settings"
+msgstr "设置"
+
+#: prefs.js:23
+msgid "Support App Uninstaller"
+msgstr "支持 App Uninstaller"
+
+#: prefs.js:24
+msgid "Your donation helps maintain and improve the extension."
+msgstr "您的捐助有助于维护和改进此扩展。"
+
+#: prefs.js:35
+msgid "Buy me a coffee"
+msgstr "请我喝杯咖啡"
+
+#: prefs.js:40
+msgid "App menu"
+msgstr "应用菜单"
+
+#: prefs.js:45
+msgid "Show the source in the menu"
+msgstr "在菜单中显示安装来源"
+
+#: prefs.js:46
+msgid "For example: “Uninstall (Flatpak)”."
+msgstr "例如：“卸载（Flatpak）”。"
+
+#: prefs.js:48
+msgid "Hide the menu item when uninstalling is unavailable"
+msgstr "无法卸载时隐藏菜单项"
+
+#: prefs.js:49
+msgid "If shown, the item explains why the app can't be removed."
+msgstr "如果保留此菜单项，点击后会显示无法卸载的原因。"
+
+#: prefs.js:53
+msgid "Menu item position"
+msgstr "菜单项位置"
+
+#: prefs.js:54
+msgid "Before app details"
+msgstr "应用详情上方"
+
+#: prefs.js:54
+msgid "At the bottom"
+msgstr "菜单底部"
+
+#: prefs.js:63
+msgid "Confirmation"
+msgstr "确认"
+
+#: prefs.js:67
+msgid "Ask before uninstalling"
+msgstr "卸载前询问"
+
+#: prefs.js:69
+msgid "Preview affected packages"
+msgstr "预览受影响的软件包"
+
+#: prefs.js:70
+msgid "APT and Pacman show what else will be removed. RPM shows packages that depend on the app."
+msgstr "APT 和 Pacman 会列出一并移除的软件包。RPM 会列出依赖此应用的软件包。"
+
+#: prefs.js:72
+msgid "Show commands in the confirmation dialog"
+msgstr "在确认对话框中显示命令"
+
+#: prefs.js:76
+msgid "Uninstall options"
+msgstr "卸载选项"
+
+#: prefs.js:77
+msgid "You can change the removal options each time you confirm an uninstall."
+msgstr "每次确认卸载时都可以修改这些选项。"
+
+#: prefs.js:86
+msgid "Move AppImage files to the Trash"
+msgstr "将 AppImage 文件移到回收站"
+
+#: prefs.js:88
+msgid "Allow removal of local launchers"
+msgstr "允许移除本地启动器"
+
+#: prefs.js:89
+msgid "This only removes the shortcut for apps such as Wine or browser apps."
+msgstr "对于 Wine 应用和浏览器应用等，只会移除快捷方式。"
+
+#: prefs.js:91
+msgid "Remove from Favorites after uninstalling"
+msgstr "卸载后从收藏夹中移除"
+
+#: prefs.js:93
+msgid "Show uninstall progress and completion"
+msgstr "显示卸载进度和完成通知"
+
+#: prefs.js:97
+msgid "Safety"
+msgstr "安全保护"
+
+#: prefs.js:102
+msgid "Protect essential system components"
+msgstr "保护重要系统组件"
+
+#: prefs.js:112
+msgid "Protected apps"
+msgstr "受保护的应用"
+
+#: prefs.js:113
+msgid "Enter a package name, a Flatpak or Snap ID, or a .desktop filename."
+msgstr "请输入软件包名称、Flatpak 或 Snap ID，或者 .desktop 文件名。"
+
+#: prefs.js:117
+msgid "Add an app to protect"
+msgstr "添加要保护的应用"
+
+#: prefs.js:122
+msgid "Add"
+msgstr "添加"
+
+#: prefs.js:138
+msgid "Remove"
+msgstr "移除"
+
+#: sources.js:261
+msgid "Flatpak was not found."
+msgstr "找不到 Flatpak。"
+
+#: sources.js:273
+msgid "Flatpak · {0} (user)"
+msgstr "Flatpak · {0}（用户）"
+
+#: sources.js:274
+msgid "Flatpak · {0} (system)"
+msgstr "Flatpak · {0}（系统）"
+
+#: sources.js:276
+msgid "Flatpak (user)"
+msgstr "Flatpak（用户）"
+
+#: sources.js:276
+msgid "Flatpak (system)"
+msgstr "Flatpak（系统）"
+
+#: sources.js:291
+msgid "Snap was not found."
+msgstr "找不到 Snap。"
+
+#: sources.js:302
+msgid "Steam (game #{0})"
+msgstr "Steam（游戏编号 {0}）"
+
+#: sources.js:304
+msgid "Could not find Steam or xdg-open."
+msgstr "找不到 Steam 或 xdg-open。"
+
+#: sources.js:315
+msgid "Waydroid (Android app)"
+msgstr "Waydroid（Android 应用）"
+
+#: sources.js:317
+msgid "Waydroid was not found."
+msgstr "找不到 Waydroid。"
+
+#: sources.js:327
+msgid "Container “{0}” (Distrobox or Toolbox)"
+msgstr "容器“{0}”（Distrobox 或 Toolbox）"
+
+#: sources.js:330
+msgid "The launcher is not in your home directory."
+msgstr "启动器不在您的主文件夹中。"
+
+#: sources.js:356
+msgid "NixOS configuration"
+msgstr "NixOS 配置"
+
+#: sources.js:357
+msgid "Remove this app from your NixOS configuration and rebuild the system."
+msgstr "请从 NixOS 配置中移除此应用，然后重新构建系统。"
+
+#: sources.js:360
+msgid "Could not find nix or nix-env."
+msgstr "找不到 nix 或 nix-env。"
+
+#: sources.js:372
+msgid "Guix was not found."
+msgstr "找不到 Guix。"
+
+#: sources.js:380
+msgid "Local launcher"
+msgstr "本地启动器"
+
+#: sources.js:405
+msgid "{0} package"
+msgstr "{0} 软件包"
+
+#: sources.js:408
+msgid "Could not find a compatible package manager."
+msgstr "找不到兼容的软件包管理器。"
+
+#: sources.js:422 sources.js:425
+msgid "Manual installation"
+msgstr "手动安装"
+
+#: sources.js:423 sources.js:539
+msgid "Run the vendor uninstaller yourself: {0}"
+msgstr "请手动运行开发者提供的卸载程序：{0}"
+
+#: sources.js:449
+msgid "This app is on your protected list."
+msgstr "此应用在您的受保护列表中。"
+
+#: sources.js:451
+msgid "System protection is on for this component."
+msgstr "此组件已启用系统保护。"
+
+#: sources.js:463
+msgid "Could not find a system copy of pkexec."
+msgstr "找不到由系统提供的 pkexec。"
+
+#: sources.js:469
+msgid "Could not find a system copy of {0}."
+msgstr "找不到由系统提供的 {0}。"
+
+#: sources.js:490
+msgid "Invalid package or app ID."
+msgstr "软件包或应用 ID 无效。"
+
+#: sources.js:511
+msgid "Confirm the uninstall in Steam."
+msgstr "请在 Steam 中确认卸载。"
+
+#: sources.js:522
+msgid "For packages managed by Home Manager, edit your configuration."
+msgstr "如果软件包由 Home Manager 管理，请修改其配置。"
+
+#: sources.js:535
+msgid "Only the launcher will be removed. The app stays in the container."
+msgstr "只会移除启动器。应用仍保留在容器中。"
+
+#: sources.js:541
+msgid "The system launcher cannot be removed safely."
+msgstr "无法安全地移除此系统启动器。"
+
+#: sources.js:578
+msgid "Restart to apply the change. Packages in the base image stay installed."
+msgstr "请重启以应用更改。基础镜像中的软件包会保留。"
+
+#: sources.js:593
+msgid "Unsupported package manager."
+msgstr "不支持此软件包管理器。"
+
+#: sources.js:716
+msgid "Source: {0}"
+msgstr "来源：{0}"
+
+#: sources.js:719
+msgid "Identifier: {0}"
+msgstr "标识符：{0}"
+
+#: sources.js:722
+msgid "Snap: {0}"
+msgstr "Snap：{0}"
+
+#: sources.js:725
+msgid "Package: {0}"
+msgstr "软件包：{0}"
+
+#: sources.js:727
+msgid "The package was identified from the executable."
+msgstr "软件包是根据可执行文件识别的。"
+
+#: sources.js:731
+msgid "Likely package: {0}"
+msgstr "可能的软件包：{0}"
+
+#: sources.js:734
+msgid "File: {0}"
+msgstr "文件：{0}"
+
+#: sources.js:738
+msgid "Only the launcher will be removed. The app files stay in place."
+msgstr "只会移除启动器。应用文件会保留。"
+
+#: sources.js:744
+msgid "Launcher: {0}"
+msgstr "启动器：{0}"
+
+#: schemas/org.gnome.shell.extensions.app-uninstaller.gschema.xml:37
+msgid "Allow removal of system launchers without an uninstaller"
+msgstr "允许移除没有卸载程序的系统启动器"
+
+#: schemas/org.gnome.shell.extensions.app-uninstaller.gschema.xml:92
+msgid "Log detected installation sources"
+msgstr "记录检测到的安装来源"
