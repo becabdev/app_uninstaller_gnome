@@ -6,7 +6,7 @@ App Uninstaller is a GNOME Shell extension that adds an **Uninstall** action to 
 
 ## Installation
 
-App Uninstaller is coming soon to [GNOME Shell Extensions](https://extensions.gnome.org/).
+App Uninstaller is coming soon to [GNOME Shell Extensions](https://extensions.gnome.org/extension/11880/app-uninstaller/).
 
 The extension is compatibility with **GNOME Shell 45 through 51** and will be compatible for future releases. Some system removals require administrator authentication through Polkit (`pkexec`).
 

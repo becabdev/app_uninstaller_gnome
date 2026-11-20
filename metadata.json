@@ -1,7 +1,11 @@
 {
   "uuid": "app-uninstaller@becabdev",
   "name": "App Uninstaller",
-  "description": "Uninstall apps from their right-click menu in Gnome Shell. The confirmation dialog shows how the app was installed and can preview other packages affected by its removal.",
+  "description": "A powerful app uninstaller for GNOME Shell. Right-click to remove native packages, Flatpaks, Snaps, AppImages, and more. See how each app was installed, preview affected packages where supported, and choose whether to clean up app data or unused dependencies.",
+  "url": "https://github.com/becabdev/app_uninstaller",
+  "donations": {
+    "buymeacoffee": "becabdev"
+  },
   "shell-version": [
     "45",
     "46",
